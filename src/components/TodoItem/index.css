@@ -6,10 +6,23 @@
   padding-right: 15px;
 }
 
+.name-container {
+  width: 60%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+input[type='text'] {
+  padding: 5px;
+}
+
 .button {
   background-color: transparent;
   border: 1px solid #ff0b37;
   color: #ff0b37;
   padding: 5px;
   border-radius: 5px;
+  margin-left: 5px;
 }

@@ -1,122 +1,72 @@
-In this project, let's build a **Simple Todos** app by applying the concepts we have learned till now.
+# Enhanced Simple Todos
 
-### Refer to the image below:
+A React.js application that allows users to manage their daily tasks efficiently. Users can add, edit, delete, and mark todos as completed.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-output.gif" alt="simple todos output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+## Features
 
-### Design Files
+- View list of todos
+- Add new todos
+- Add multiple todos at once
+- Edit existing todos
+- Save updated todo titles
+- Delete todos
+- Mark todos as completed using a checkbox
+- Completed todos are displayed with a strike-through effect
+- Responsive and user-friendly UI
 
-<details>
-<summary>Click to view</summary>
+## Technologies Used
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-lg-output-v2.png)
+- React.js
+- JavaScript (ES6)
+- CSS3
+- HTML5
 
-</details>
+## Project Structure
 
-### Set Up Instructions
+```
+src/
+├── components/
+│   ├── SimpleTodos/
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── TodoItem/
+│   │   ├── index.js
+│   │   └── index.css
+├── App.js
+└── index.js
+```
 
-<details>
-<summary>Click to view</summary>
+## Functionality
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+### Add Todo
+Users can enter a todo title and click the Add button to create a new todo.
 
-### Completion Instructions
+### Edit Todo
+Click the Edit button to modify a todo title.
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+### Save Todo
+After editing, click Save to update the todo.
 
-The app must have the following functionalities
+### Complete Todo
+Check the checkbox to mark a todo as completed.
 
-- Initially, the list of given todos should be displayed with a delete button for each todo
-- When **Delete** button of a todo is clicked, then the respective todo should be deleted
-- The `SimpleTodos` will consist of the `initialTodosList`. It consists of a list of todo objects with the following properties in each todo object
+### Delete Todo
+Click the Delete button to remove a todo from the list.
 
-  |  Key  | Data Type |
-  | :---: | :-------: |
-  |  id   |  Number   |
-  | title |  String   |
+## Installation
 
-</details>
+1. Install dependencies
 
-<details>
-<summary>Components Structure</summary>
+```bash
+npm install
+```
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-component-structure.png" alt="simple todos component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+2. Start the development server
 
-</details>
+```bash
+npm start
+```
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+## Author
 
-Use these files to complete the implementation:
-
-- `src/components/SimpleTodo/index.js`
-- `src/components/SimpleTodo/index.css`
-- `src/components/TodoItem/index.js`
-- `src/components/TodoItem/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #ffc2a0; width: 150px; padding: 10px; color: black">Hex: #ffc2a0</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #ff8542; width: 150px; padding: 10px; color: white">Hex: #ff8542</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+**G B Uday Kiran**

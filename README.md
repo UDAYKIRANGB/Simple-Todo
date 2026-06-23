@@ -36,6 +36,10 @@ src/
 └── index.js
 ```
 
+## Screenshots
+
+<img width="1082" height="865" alt="image" src="https://github.com/user-attachments/assets/5c3cc4dc-1a45-48b6-a5d8-56a12026db54" />
+
 ## Functionality
 
 ### Add Todo

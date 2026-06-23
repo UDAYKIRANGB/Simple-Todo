@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 32px;
+}
